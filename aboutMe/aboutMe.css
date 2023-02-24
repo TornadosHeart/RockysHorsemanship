@@ -1,0 +1,70 @@
+/* Intro Styles */
+.welcome {
+  font-weight: normal !important;
+  margin: 40px 0 25px 0 !important;
+}
+
+.horsemanship {
+  text-align: center;
+  margin: 25px 0px;
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Intro Photos */
+.img-thumbnail-About {
+  width: 250px;
+  background: none;
+  border-radius: 250px;
+  border: 3px solid black;
+  margin-bottom: 30px;
+  float: none;
+}
+
+/* Article Style */
+article p {
+  margin-top: 0px !important;
+}
+
+/* Images */
+#tornadoJump {
+  float: left;
+  height: 250px;
+  width: auto;
+  margin-left: 320px;
+  margin-right: 4px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+}
+
+#youngEllie {
+  float: left;
+  height: 250px;
+  width: auto;
+  margin-right: 4px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+}
+
+#tornadoSitting {
+  float: left;
+  height: 250px;
+  width: auto;
+  margin-bottom: 15px;
+  margin-right: 4px;
+  border: 2px solid black;
+}
+
+.horse-accomp {
+  line-height: 2em;
+}
+
+
+/* Gallery Images */
+#aboutMeGallery {
+  border: solid 2px black;
+  height: 350px !important;
+  width: auto !important;
+  align-items: center;
+}

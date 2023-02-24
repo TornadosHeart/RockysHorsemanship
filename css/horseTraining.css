@@ -1,0 +1,134 @@
+/* Body Settings */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+/* Link Settings */
+a:link {
+    color: rgb(133, 45, 145);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(123, 109, 127);
+}
+a:hover {
+    color: rgb(154, 36, 193) !important;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(159, 106, 208, 60%);
+    font-family: 'Bad Script', cursive;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+}
+.dropdown-menu a{
+    padding: 10px 10px;
+    text-align: center;
+}
+#navbarNavDropdown {
+    float: right !important;
+}
+.navbar-brand {
+    margin-left: 80px;
+}
+.nav-link {
+    color: black;
+    font-size: 1.50em;
+    margin: 0px 40px;
+    padding-right: 15px !important;
+}
+nav .navbar-nav li a{
+    color: black;
+}
+
+/* Title Image */
+#largeMainImg {
+    width: 100% !important;
+    height: 580px !important;
+}
+
+/* Main Section */
+.welcome {
+    text-align: center;
+    margin: 40px 0px;
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+figure img {
+	float: right;
+    height: 350px;
+    width: 480px;
+    margin: 2px 40px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+}
+article p {
+    margin-left: 40px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+.firstExample {
+    font-size: 12px;
+    font-style: italic;
+}
+.offeredService {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.exampleTraining {
+    font-size: 12px;
+}
+
+/* My Horses */
+.img-thumbnail-Home {
+    height: 280px;
+    background: none;
+    border-radius: 250px;
+    border: 3px solid black;
+    padding: 0;
+    float: none;
+}
+
+/* the styles for the footer */
+footer {
+    background-color: rgba(159, 106, 208, 60%);	
+    clear: both;
+    height: 100px;
+    padding: .4em;
+    padding-top: 10px;
+}
+
+.policy {
+    text-align: left;
+    padding-left: 14px;
+}
+.info1 {
+    text-align: center;
+}
+.info2 {
+    text-align: right;
+    padding-right: 14px;
+}
+footer p {
+    margin-top: 5px;
+	text-align: center;
+    font-size: 65%;
+}
+
+
+/* Policies */
+.terms {
+    margin: 0 40px;
+}

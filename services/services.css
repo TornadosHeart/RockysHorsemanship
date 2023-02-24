@@ -1,0 +1,143 @@
+/* Main Styles */
+.welcome {
+    margin-bottom: 20px;
+}
+article p {
+    margin-right: 40px;
+}
+
+
+
+/* Ground Work */
+.priceGround {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.groundIntro {
+    width: 700px;
+    font-size: 16px;
+    align-items: center;
+}
+/*Photo of Rocky laying down in Ground Work*/
+#rockyGroundWork {
+    float: left;
+    height: 330px !important;
+    width: auto !important;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+
+
+/* Colt Starting */
+.priceStart {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.startingIntro {
+    width: 700px;
+    font-size: 16px;
+    align-items: center;
+}
+/* Photo of Pistol in Colt Starting*/
+#pistolButtImage {
+    float: left;
+    height: 330px !important;
+    width: auto !important;
+    border: 3px solid black;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+
+/* Discipline Training */
+.priceDis {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.DisciplineIntro {
+    width: 700px;
+    font-size: 16px;
+    align-items: center;
+}
+
+/*Video of Soldier and I at River Valley in Discipline Training*/
+#startingRV {
+    float: left;
+    height: 350px !important;
+    width: 200px !important;
+    border: solid 3px black;
+    margin-bottom: 10px;
+}
+
+#videoColtStarting {
+    width: 195px !important;
+    font-style: italic;
+    font-size: 10px;
+    float: left;
+}
+.movingText {
+    float: right;
+}
+
+
+
+/* Refresher Style */
+.priceRef {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.refreshIntro {
+    width: 700px;
+    font-size: 16px;
+    align-items: center;
+}
+/*Photo of Sissy's horse from 2020 in Refresher Training*/
+#reFresh {
+    float: left;
+    height: 200px !important;
+    width: auto !important;
+    margin-top: 14px;
+    margin-right: 14px;
+    margin-left: 40px;
+    border: solid 2px black !important;
+}
+
+
+/* Restarting Styles */
+.priceRestart {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.restartIntro {
+    width: 700px;
+    font-size: 16px;
+    align-items: center;
+}
+/*Video of Shonnie and I working on mounting in Restarting*/
+#shonnieRestart {
+    height: 165px !important;
+    width: auto !important;
+    float: left;
+    border: solid 2px black;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+#videoReStarting {
+    float: left;
+    width: 280px;
+    font-style: italic;
+    font-size: 10px;
+    margin-right: 50px;
+    margin-top: 9px;
+}

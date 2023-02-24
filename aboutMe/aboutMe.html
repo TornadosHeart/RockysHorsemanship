@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Rocky's Horsemanship</title>
+
+    <!--Link Files-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../css/horseTraining.css" rel="stylesheet">
+    <link href="aboutMe.css" rel="stylesheet">
+    <!--Script Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="../js/horseTraining.js"></script>
+    <!--Font Styles-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+    </header>
+    <!-- Nav -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="../images/LOGO-idea1-trans.png" alt="Logo" width="80px"
+                    height="80px" class="d-inline-block align-text-center"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li id="aboutDrop" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false">About</a>
+                        <ul id="aboutOptions" class="dropdown-menu">
+                            <a class="dropdown-item nav-textChange" href="../aboutTraining/aboutTrain.html">Training
+                                Information</a>
+                            <a class="dropdown-item nav-textChange" href="./aboutMe.html">Meet the Trainer</a>
+                        </ul>
+                    </li>
+                    <li id="serviceDrop" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false">Services</a>
+                        <ul id="serviceOptions" class="dropdown-menu">
+                            <a class="dropdown-item nav-textChange" href="../services/groundwork.html">Fundamental
+                                Groundwork</a>
+                            <!--Horses 2 and under for the basic ground work(tying, picking up feet, loading, building confidence, etc.)-->
+                            <a class="dropdown-item nav-textChange" href="../services/coltStarting.html">Colt
+                                Starting</a>
+                            <!--Horses 2 and over basic starting of 30 days with options of 30, 60, and 90 days-->
+                            <a class="dropdown-item nav-textChange"
+                                href="../services/disciplineTraining.html">Discipline Training</a>
+                            <!--Specific Discipline training for the horse(s) Western & English - can be multiple at once-->
+                            <a class="dropdown-item nav-textChange" href="../services/refresher.html">Refreshers</a>
+                            <!--For horses of any age that just need a little extra, help to remember what they already know, and or manner work-->
+                            <a class="dropdown-item nav-textChange" href="../services/reStart.html">Re-Starting</a>
+                            <!--Aimed to rescues or horses that need a little extra help and taking them back to the begging, min of 60 days-->
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../clients/testimonies.html">Client Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact/contactMe.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End of Nav-->
+
+
+    <!--Title-->
+    <div class="mainImage">
+        <img src="../images/tornado_FreeJump_Banner.png" alt="firstMainImg" id="largeMainImg">
+    </div>
+    <!-- Main Section -->
+    <main>
+        <section>
+            <br>
+            <h2 class="welcome">Meet the Trainer</h2>
+            <h1 class="horsemanship">Kacey Weaver</h1><br><br>
+
+            <article>
+                <center>
+                    <div class="row" id="thumbnailsAboutMe">
+                        <div class="col">
+                            <img src="../images/aboutMeTornado.jpg" id="tornadoAbout" alt="Ellie"
+                                class="img-thumbnail-About">
+                        </div>
+                        <div class="col">
+                            <img src="../images/aboutMeRocky.jpg" id="rockyAbout" alt="Tornado"
+                                class="img-thumbnail-About">
+                        </div>
+                        <div class="col">
+                            <img src="../images/aboutMeEllie.jpg" id="ellieAbout" alt="Rocky"
+                                class="img-thumbnail-About">
+                        </div>
+                    </div>
+                </center>
+                <br><br>
+                <figure><img src="../images/ellie2006.jpg" alt="2006 Riding Ellie">
+                </figure>
+                <p>
+                    My name is Kacey Weaver - I was born and brought up around horses my whole life. My mother had her
+                    heart horse; Ellie, who became one of the first horses I ever rode. Ellie was a beautiful,
+                    registered American Quarter Horse mare who had a heart of gold. She gave me a lot of my firsts when
+                    it came to the horse world in both regular riding and showing. The image to the right was taken in
+                    2006 when I was only four years old.
+                </p>
+                <p>
+                    Ellie had taken me miles and miles in my progress as a rider - when the time was right we then got a
+                    pony. We named the pony Tornado, and she very quickly became my heart "horse" even through the tough
+                    times when we were learning each other. We purchased Tornado in 2010 with her being able to ride
+                    western, and by 2013 I was taking her to the 4-H fair with Ellie. The more I competed with them, the
+                    more I had a desire to keep going and keep experiencing new things.
+                </p>
+                <p>
+                    Growing up I did everything I could with the horses, from halter to western pleasure and barrels to
+                    english pleasure and jumping. I dabbled with cross country, pole bending, horsemanship, anything I
+                    could. Everything I could do in a saddle, I was able to do bareback. Throughout my life<i>(up to
+                        2022)</i> I have had many accomplishments, both in the show ring and behind closed doors with
+                    both Ellie and Tornado.
+                </p><br>
+                <div id="aboutMePhotos">
+                    <div id="tornadoJumpDiv">
+                        <img id="tornadoJump" src="../images/jumpBareback.jpg" alt="Jumping Tornado Bareback">
+                    </div>
+                    <div id="youngEllieDiv">
+                        <img id="youngEllie" src="../images/ellieBareback.jpg" alt="Young me on Ellie">
+                    </div>
+                    <div id="tornadoSittingDiv">
+                        <img id="tornadoSitting" src="../images/tornadoSitting.jpg" alt="Sitting with Tornado">
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                <p class="horse-accomp">
+                    <u>A few major accomplishments I’ve made with the horses<i>(up to 2022)</i>
+                    follow;</u><br>
+                    &bull; Ellie and I usually took home first place/champion in each of our 4-H classes except for a
+                    few each
+                    year we entered.<br>
+                    &bull; 2014 I started trick and liberty training on my own with Tornado - she learned how to bow,
+                    lay
+                    down, sit, stay, come, do liberty circles, rear, and play dead all on cue.<br>
+                    &bull; 2018 Ellie and I won the Miss Tri-State Jr. Rodeo Queen contest, rode in the Tri-State
+                    Rodeo, and the Parade.<br>
+                    &bull; 2019 Ellie and I won Grand Champion in the Youth Division at the River Valley Trail
+                    Challenge.<br>
+                    &bull; 2020 Ellie and I won Grand Champion in the Pro Division at the River Valley Trail
+                    Challenge.<br>
+                    &bull; 2020 I started client training for the first time, and had roughly four to five different
+                    clients
+                    through the summer.<br>
+                    &bull; 2022 client trained again, and I had around five to six different clients throughout the
+                    summer and
+                    fall.
+                </p>
+
+                <br>
+            </article>
+
+            <!-- Gallery --><center>
+            <div id="gallerySetUp" class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="../images/galleryOne.jpg" id="aboutMeGallery" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Ellie and I Parade Walk" />
+
+                    <img src="../images/galleryTwo.jpg" id="aboutMeGallery" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Pistol Trailer Loading" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="../images/tornadoSaddledJump.jpeg" id="aboutMeGallery"
+                        class="w-100 shadow-1-strong rounded mb-4 tJump" alt="Jumping Tornado in the saddle" />
+
+                    <img src="../images/rvTeter.jpeg" id="aboutMeGallery" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Working on the Tetter Totter" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="../images/rockyWoods.jpeg" id="aboutMeGallery" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Running Rocky in the Woods" />
+
+                    <img src="../images/gallerySix.jpg" id="aboutMeGallery" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Dexter with the Saddle" />
+                </div>
+            </div></center>
+            <!-- Gallery -->
+
+            <br>
+            <p>
+                <center>
+                    For more information about how I train, please refer to the '<a
+                        href="../aboutTraining/aboutTrain.html">Training Information</a>' page under About.<br>
+                    For my training services, please see the 'Services' tab and pick the training option you feel 
+                    best fits your needs.<br>
+                    If you would like to read some testimonials from previous and or current clients please see 
+                    the '<a href="../clients/testimonies.html">Client Testimonials</a>' tab.<br>
+                    For any questions, concerns, or interest in training please see the
+                    '<a href="../contact/contactMe.html">Contact Me</a>' page.<br><br><br>
+                    <b><u>Thank You</u></b><br><br>
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <article class="policy">
+                    <li><a href="../policies/Privacy.html">Privacy Policy</a></li>
+                    <li><a href="./aboutMe.html">About Me</a></li>
+                </article>
+            </div>
+
+            <div class="col">
+                <article class="info1">
+                    <li><a href="../policies/Terms.html">Terms of Service</a></li>
+                    <li><a href="../contact/contactMe.html">Contact Me</a></li>
+                </article>
+            </div>
+
+            <div class="col">
+                <article class="info2">
+                    <li><a href="../policies/Cookie.html">Cookie Policy</a></li>
+                    <li><a href="../clients/testimonies.html">Testimonies</a></li>
+                </article>
+            </div>
+
+        </div>
+        <br>
+
+        <p>Copyright 2022</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+<!-- End of Code -->

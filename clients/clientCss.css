@@ -1,0 +1,107 @@
+blockquote p {
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    line-height: 1.5;
+    font-family: Sitka Text;
+}
+footer {
+    clear: none !important;
+}
+.rightFooter {
+    float: right;
+    margin-right: 40px;
+}
+#client20{
+    font-size: 10px !important;
+}
+#blockFooter {
+    height: 40px;
+    width: 400px !important;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+/*Text color, font, size, and footer BG color on the LEFT SIDE */
+#leftSide p {
+    margin-top: 85px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+#leftSide footer {
+    margin-top: .5em;
+    padding-top: 5px;
+    color: rgb(247, 247, 247);
+    font-size: 12pt;
+    font-style: italic;
+}
+
+blockquote footer:before {
+    content: '— ';
+}
+
+blockquote:nth-of-type(odd) {
+    border-left: none;
+}
+
+/* Angus & Emma Client */
+#angusEmma {
+    height: 400px;
+    margin: 0 40px;
+    float: right !important;
+    border: 2px solid black;
+}
+
+
+/*Text color, font, size, and footer BG color on the RIGHT SIDE */
+#rightSide p {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 14px;
+}
+#rightSide footer {
+    margin-top: .5em;
+    padding-top: 5px;
+    color: rgb(247, 247, 247);
+    font-size: 12pt;
+    font-style: italic;
+}
+blockquote footer:before {
+    content: '— ';
+}
+
+blockquote:nth-of-type(even) {
+    border-left: none;
+}
+
+/* Sissy & Amora Client */
+#amoraFaith {
+    height: 300px !important;
+    margin: 0 40px;
+    float: left !important;
+    border: 2px solid black;
+}
+
+/* Photo Examples */
+#clientOne {
+    height: 300px !important;
+    margin: 0 40px;
+    float: right !important;
+    border: 2px solid black;
+}
+
+#clientTwo {
+    height: 300px !important;
+    margin: 0 40px;
+    float: left !important;
+    border: 2px solid black;
+}
+
+#clientThree {
+    height: 300px !important;
+    margin: 0 40px;
+    float: right !important;
+    border: 2px solid black;
+}

@@ -1,0 +1,77 @@
+.welcome {
+  margin-bottom: 20px !important;
+}
+
+/* Contract Link */
+#contractText a {
+  color: rgb(178, 103, 168);
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+#contractText a:hover {
+  color: black;
+}
+
+/* Article Styles */
+article img {
+  height: 320px;
+  width: auto;
+}
+article p {
+  margin-right: 40px;
+}
+
+/* Video Styles */
+iframe {
+  margin: 5px;
+}
+#pistolLung {
+  height: 270px !important;
+  width: 130px !important;
+  border: solid 2px rgb(0, 0, 0);
+}
+#solderRV {
+  height: 270px !important;
+  width: 148px !important;
+  border: solid 2px rgb(0, 0, 0);
+}
+#dexterSaddle {
+  height: 270px !important;
+  width: 130px !important;
+  border: solid 2px rgb(0, 0, 0);
+}
+#pistolSaddle {
+  height: 270px !important;
+  width: 130px !important;
+  border: solid 2px rgb(0, 0, 0);
+}
+#shonieVideo {
+  height: 148px;
+  width: 260px;
+  border: solid 2px rgb(0, 0, 0);
+}
+#ellieRV {
+  height: 148px;
+  width: 256px;
+  border: solid 2px rgb(0, 0, 0);
+}
+.jumbotron {
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+  }
+
+  .gallery {
+    padding: 40px;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+  }
+.videoInfo {
+  font-size: 12px;
+  font-style: italic;
+}
